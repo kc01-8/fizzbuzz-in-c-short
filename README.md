@@ -4,8 +4,7 @@ My third ever program, I wrote this by myself and I think it's pretty good
 #include <stdio.h>
 
 int main(){
-    int i;
-    for (i = 1; i < 101; i++){
+    for (int i = 1; i < 101; i++){
         if(i % 3 == 0 && i % 5 == 0){
             printf("FizzBuzz\n");
         } else if(i % 3 == 0){
